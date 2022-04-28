@@ -1,11 +1,14 @@
 # Project 3 Generative Visual
 
-Your Name, yourcontact@unl.edu
-(Your teammate's contact info, if appropriate)
+Ebben Blake, eblake3@huskers.unl.edu
+
 
 ## Abstract
 
-Include your abstract here. This should be one paragraph clearly describing your concept, method, and results. This should tell us what architecture/approach you used. Also describe your creative goals, and whether you were successful in achieving them. Also could describe future directions.
+Include your abstract here. This should be one paragraph clearly describing your concept, method, and results. This should tell us what architecture/approach you used. Also describe your creative goals, and whether you were successful in achieving them. Also could describe future directions. 
+
+similar to that of https://github.com/ucsd-ml-arts/generative-visual-group-zhx work.
+
 
 ## Model/Data
 
