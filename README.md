@@ -33,7 +33,7 @@ I plan on making 3d objects from text. Starting with a text to image Gan, load t
   - https://matthew-a-chan.github.io/EG3D/
 - Repositories
 
-  -https://github.com/ucsd-ml-arts/generative-visual-group-zhx
+  - https://github.com/ucsd-ml-arts/generative-visual-group-zhx
 - Blog posts
   - https://autonomousvision.github.io/controllable-gan/
 
