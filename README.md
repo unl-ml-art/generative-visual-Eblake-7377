@@ -5,39 +5,39 @@ Ebben Blake, eblake3@huskers.unl.edu
 
 ## Abstract
 
-Include your abstract here. This should be one paragraph clearly describing your concept, method, and results. This should tell us what architecture/approach you used. Also describe your creative goals, and whether you were successful in achieving them. Also could describe future directions. 
-
-similar to that of https://github.com/ucsd-ml-arts/generative-visual-group-zhx work.
+I plan on making 3d objects from text. Starting with a text to image Gan, load the outcomes into either a 3D gan or a image to 3d program, and create stylistic objects. The text would consist of abstract of ideas, and concepts that are not tangile in the phycisal world, my hope is to create a more develped asset and understnading of what these formless could look like. 
 
 
 ## Model/Data
 
-Briefly describe the files that are included with your repository:
-- trained models
-- training data (or link to training data)
+
 
 ## Code
 
-Your code for generating your project:
-- Python: generative_code.py
-- Jupyter notebooks: generative_code.ipynb
+
 
 ## Results
 
-Documentation of your results in an appropriate format, both links to files and a brief description of their contents:
-- image files (`.jpg`, `.png` or whatever else is appropriate)
-- move files (uploaded to youtube or vimeo due to github file size limits)
-- ... some other form
+
 
 ## Technical Notes
 
-Any implementation details or notes we need to repeat your work. 
-- Does this code require other pip packages, software, etc?
-- Does it run on some other (non-datahub) platform? (CoLab, etc.)
+
 
 ## Reference
 
-References to any papers, techniques, repositories you used:
-- Papers
+- Publicatons
+  - https://www.computationalimaging.org/publications/3dganinversion/  
+  - http://3dgan.csail.mit.edu/
+  - https://arxiv.org/pdf/2002.12674.pdf
+  - https://matthew-a-chan.github.io/EG3D/
 - Repositories
+
+  -https://github.com/ucsd-ml-arts/generative-visual-group-zhx
 - Blog posts
+  - https://autonomousvision.github.io/controllable-gan/
+
+
+- Image to model applications
+  - https://all3dp.com/2/3d-print-from-photo-how-to-do-it/
+ 
