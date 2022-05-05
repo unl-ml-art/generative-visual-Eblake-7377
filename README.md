@@ -58,7 +58,7 @@ Text to image GAN:
 
 ## Technical Notes
 
-When tryign to write the prompts, word choice and lenght plays a big part. I mentioned salvery and most of the outputs look to refernce historical jim crow black and white photos when that was the context at all. 
+When trying to write the prompts, word choice and length plays a big part. I mentioned salvery and most of the outputs look to refernce historical jim crow black and white photos when that was the context at all. 
 
 ## Reference
 
