@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>0d9f355c7dae42d7a751f89051e32e57</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      word-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section id="copyright-2018-the-tensorflow-authors" class="cell markdown" id="g_nWetWWd_ns">
+<h5>Copyright 2018 The TensorFlow Authors.</h5>
+</section>
+<div class="cell code" data-execution_count="39" data-cellView="form" id="2pHVBk_seED1">
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">#@title Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># you may not use this file except in compliance with the License.</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># You may obtain a copy of the License at</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co"># https://www.apache.org/licenses/LICENSE-2.0</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Unless required by applicable law or agreed to in writing, software</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co"># distributed under the License is distributed on an &quot;AS IS&quot; BASIS,</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co"># WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co"># See the License for the specific language governing permissions and</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="co"># limitations under the License.</span></span></code></pre></div>
+</div>
+<section id="neural-style-transfer" class="cell markdown" id="6msVLevwcRhm">
+<h1>Neural style transfer</h1>
+</section>
+<div class="cell markdown" id="Ds4o1h4WHz9U">
+<table class="tfo-notebook-buttons" align="left">
+  <td>
+    <a target="_blank" href="https://www.tensorflow.org/tutorials/generative/style_transfer"><img src="https://www.tensorflow.org/images/tf_logo_32px.png" />View on TensorFlow.org</a>
+  </td>
+  <td>
+    <a target="_blank" href="https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/generative/style_transfer.ipynb"><img src="https://www.tensorflow.org/images/colab_logo_32px.png" />Run in Google Colab</a>
+  </td>
+  <td>
+    <a target="_blank" href="https://github.com/tensorflow/docs/blob/master/site/en/tutorials/generative/style_transfer.ipynb"><img src="https://www.tensorflow.org/images/GitHub-Mark-32px.png" />View on GitHub</a>
+  </td>
+  <td>
+    <a href="https://storage.googleapis.com/tensorflow_docs/docs/site/en/tutorials/generative/style_transfer.ipynb"><img src="https://www.tensorflow.org/images/download_logo_32px.png" />Download notebook</a>
+  </td>
+  <td>
+    <a href="https://tfhub.dev/google/magenta/arbitrary-image-stylization-v1-256/2"><img src="https://www.tensorflow.org/images/hub_logo_32px.png" />See TF Hub model</a>
+  </td>
+</table>
+</div>
+<div class="cell markdown" id="aDyGj8DmXCJI">
+<p>This tutorial uses deep learning to compose one image in the style of another image (ever wish you could paint like Picasso or Van Gogh?). This is known as <em>neural style transfer</em> and the technique is outlined in <a href="https://arxiv.org/abs/1508.06576" class="external">A Neural Algorithm of Artistic Style</a> (Gatys et al.).</p>
+<p>Note: This tutorial demonstrates the original style-transfer algorithm. It optimizes the image content to a particular style. Modern approaches train a model to generate the stylized image directly (similar to <a href="cyclegan.ipynb">cyclegan</a>). This approach is much faster (up to 1000x).</p>
+<p>For a simple application of style transfer check out this <a href="https://www.tensorflow.org/hub/tutorials/tf2_arbitrary_image_stylization">tutorial</a> to learn more about how to use the pretrained <a href="https://tfhub.dev/google/magenta/arbitrary-image-stylization-v1-256/2">Arbitrary Image Stylization model</a> from <a href="https://tfhub.dev">TensorFlow Hub</a> or how to use a style transfer model with <a href="https://www.tensorflow.org/lite/models/style_transfer/overview">TensorFlow Lite</a>.</p>
+</div>
+<div class="cell markdown" id="1b3XwN9V1nvR">
+<p>Neural style transfer is an optimization technique used to take two images—a <em>content</em> image and a <em>style reference</em> image (such as an artwork by a famous painter)—and blend them together so the output image looks like the content image, but “painted” in the style of the style reference image.</p>
+<p>This is implemented by optimizing the output image to match the content statistics of the content image and the style statistics of the style reference image. These statistics are extracted from the images using a convolutional network.</p>
+</div>
+<div class="cell markdown" id="3kb_UJY-jCEl">
+<p>For example, let’s take an image of this dog and Wassily Kandinsky's Composition 7:</p>
+<p><img src="https://storage.googleapis.com/download.tensorflow.org/example_images/YellowLabradorLooking_new.jpg" width="500px"/></p>
+<p><a href="https://commons.wikimedia.org/wiki/File:YellowLabradorLooking_new.jpg">Yellow Labrador Looking</a>, from Wikimedia Commons by <a href="https://en.wikipedia.org/wiki/User:Elf">Elf</a>. License <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC BY-SA 3.0</a></p>
+<p><img src="https://storage.googleapis.com/download.tensorflow.org/example_images/Vassily_Kandinsky%2C_1913_-_Composition_7.jpg" width="500px"/></p>
+<p>Now how would it look like if Kandinsky decided to paint the picture of this Dog exclusively with this style? Something like this?</p>
+<p><img src="https://tensorflow.org/tutorials/generative/images/stylized-image.png" style="width: 500px;"/></p>
+</div>
+<section id="setup" class="cell markdown" id="U8ajP_u73s6m">
+<h2>Setup</h2>
+</section>
+<section id="import-and-configure-modules" class="cell markdown" id="eqxUicSPUOP6">
+<h3>Import and configure modules</h3>
+</section>
+<div class="cell code" data-execution_count="40" id="NyftRTSMuwue">
+<div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> tensorflow <span class="im">as</span> tf</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Load compressed models from tensorflow_hub</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>os.environ[<span class="st">&#39;TFHUB_MODEL_LOAD_FORMAT&#39;</span>] <span class="op">=</span> <span class="st">&#39;COMPRESSED&#39;</span></span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="41" id="sc1OLbOWhPCO">
+<div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> IPython.display <span class="im">as</span> display</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib <span class="im">as</span> mpl</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>mpl.rcParams[<span class="st">&#39;figure.figsize&#39;</span>] <span class="op">=</span> (<span class="dv">12</span>, <span class="dv">12</span>)</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>mpl.rcParams[<span class="st">&#39;axes.grid&#39;</span>] <span class="op">=</span> <span class="va">False</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> PIL.Image</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> time</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> functools</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="42" id="GM6VEGrGLh62">
+<div class="sourceCode" id="cb4"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> tensor_to_image(tensor):</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>  tensor <span class="op">=</span> tensor<span class="op">*</span><span class="dv">255</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  tensor <span class="op">=</span> np.array(tensor, dtype<span class="op">=</span>np.uint8)</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> np.ndim(tensor)<span class="op">&gt;</span><span class="dv">3</span>:</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">assert</span> tensor.shape[<span class="dv">0</span>] <span class="op">==</span> <span class="dv">1</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>    tensor <span class="op">=</span> tensor[<span class="dv">0</span>]</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> PIL.Image.fromarray(tensor)</span></code></pre></div>
+</div>
+<div class="cell markdown" id="oeXebYusyHwC">
+<p>Download images and choose a style image and a content image:</p>
+</div>
+<div class="cell code" data-execution_count="43" id="wqc0OJHwyFAk">
+<div class="sourceCode" id="cb5"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># content_path = tf.keras.utils.get_file(&#39;YellowLabradorLooking_new.jpg&#39;, &#39;https://storage.googleapis.com/download.tensorflow.org/example_images/YellowLabradorLooking_new.jpg&#39;)</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="co"># style_path = tf.keras.utils.get_file(&#39;kandinsky5.jpg&#39;,&#39;https://storage.googleapis.com/download.tensorflow.org/example_images/Vassily_Kandinsky%2C_1913_-_Composition_7.jpg&#39;)</span></span></code></pre></div>
+</div>
+<section id="visualize-the-input" class="cell markdown" id="xE4Yt8nArTeR">
+<h2>Visualize the input</h2>
+</section>
+<div class="cell markdown" id="klh6ObK2t_vH">
+<p>Define a function to load an image and limit its maximum dimension to 512 pixels.</p>
+</div>
+<div class="cell code" data-execution_count="44" id="3TLljcwv5qZs">
+<div class="sourceCode" id="cb6"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> load_img(path_to_img):</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>  max_dim <span class="op">=</span> <span class="dv">512</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>  img <span class="op">=</span> tf.io.read_file(path_to_img)</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>  img <span class="op">=</span> tf.image.decode_image(img, channels<span class="op">=</span><span class="dv">3</span>)</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>  img <span class="op">=</span> tf.image.convert_image_dtype(img, tf.float32)</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>  shape <span class="op">=</span> tf.cast(tf.shape(img)[:<span class="op">-</span><span class="dv">1</span>], tf.float32)</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>  long_dim <span class="op">=</span> <span class="bu">max</span>(shape)</span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>  scale <span class="op">=</span> max_dim <span class="op">/</span> long_dim</span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>  new_shape <span class="op">=</span> tf.cast(shape <span class="op">*</span> scale, tf.int32)</span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a>  img <span class="op">=</span> tf.image.resize(img, new_shape)</span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a>  img <span class="op">=</span> img[tf.newaxis, :]</span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> img</span></code></pre></div>
+</div>
+<div class="cell markdown" id="2yAlRzJZrWM3">
+<p>Create a simple function to display an image:</p>
+</div>
+<div class="cell code" data-execution_count="45" id="cBX-eNT8PAK_">
+<div class="sourceCode" id="cb7"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> imshow(image, title<span class="op">=</span><span class="va">None</span>):</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> <span class="bu">len</span>(image.shape) <span class="op">&gt;</span> <span class="dv">3</span>:</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>    image <span class="op">=</span> tf.squeeze(image, axis<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>  plt.imshow(image)</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> title:</span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>    plt.title(title)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="46" data-colab="{&quot;height&quot;:408,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="_UWQmeEaiKkP" data-outputId="132af47c-18e8-4aaf-ec21-3706a405aabb">
+<div class="sourceCode" id="cb8"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>content_image <span class="op">=</span> load_img(<span class="st">&#39;c_g.jpg&#39;</span>)</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>style_image <span class="op">=</span> load_img(<span class="st">&#39;s.png&#39;</span>)</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>plt.subplot(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">1</span>)</span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>imshow(content_image, <span class="st">&#39;Content Image&#39;</span>)</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>plt.subplot(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">2</span>)</span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>imshow(style_image, <span class="st">&#39;Style Image&#39;</span>)</span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_4c2df06cf1ff41829938ccf511556820/f6d7befff1632f842061692c387abc4a46880f8c.png" /></p>
+</div>
+</div>
+<section id="fast-style-transfer-using-tf-hub" class="cell markdown" id="YMzChXSlKTA2">
+<h2>Fast Style Transfer using TF-Hub</h2>
+<p>This tutorial demonstrates the original style-transfer algorithm, which optimizes the image content to a particular style. Before getting into the details, let's see how the <a href="https://tfhub.dev/google/magenta/arbitrary-image-stylization-v1-256/2">TensorFlow Hub model</a> does this:</p>
+</section>
+<div class="cell code" data-execution_count="47" data-colab="{&quot;height&quot;:529,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="iYSLexgRKSh-" data-outputId="68dc0e4c-c350-4081-c090-714d501a2326">
+<div class="sourceCode" id="cb9"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> tensorflow_hub <span class="im">as</span> hub</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>hub_model <span class="op">=</span> hub.load(<span class="st">&#39;https://tfhub.dev/google/magenta/arbitrary-image-stylization-v1-256/2&#39;</span>)</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>stylized_image <span class="op">=</span> hub_model(tf.constant(content_image), tf.constant(style_image))[<span class="dv">0</span>]</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>tensor_to_image(stylized_image)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="47">
+<p><img src="vertopal_4c2df06cf1ff41829938ccf511556820/4bdbdbbda18cabbd7da0a89e87a6ca23dd87fdd4.png" /></p>
+</div>
+</div>
+<section id="define-content-and-style-representations" class="cell markdown" id="GEwZ7FlwrjoZ">
+<h2>Define content and style representations</h2>
+<p>Use the intermediate layers of the model to get the <em>content</em> and <em>style</em> representations of the image. Starting from the network's input layer, the first few layer activations represent low-level features like edges and textures. As you step through the network, the final few layers represent higher-level features—object parts like <em>wheels</em> or <em>eyes</em>. In this case, you are using the VGG19 network architecture, a pretrained image classification network. These intermediate layers are necessary to define the representation of content and style from the images. For an input image, try to match the corresponding style and content target representations at these intermediate layers.</p>
+</section>
+<div class="cell markdown" id="LP_7zrziuiJk">
+<p>Load a <a href="https://keras.io/api/applications/vgg/#vgg19-function">VGG19</a> and test run it on our image to ensure it's used correctly:</p>
+</div>
+<div class="cell code" data-execution_count="48" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="fMbzrr7BCTq0" data-outputId="7f4df533-a955-40d1-8052-bf59c3ec396c">
+<div class="sourceCode" id="cb10"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> tf.keras.applications.vgg19.preprocess_input(content_image<span class="op">*</span><span class="dv">255</span>)</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> tf.image.resize(x, (<span class="dv">224</span>, <span class="dv">224</span>))</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>vgg <span class="op">=</span> tf.keras.applications.VGG19(include_top<span class="op">=</span><span class="va">True</span>, weights<span class="op">=</span><span class="st">&#39;imagenet&#39;</span>)</span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>prediction_probabilities <span class="op">=</span> vgg(x)</span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>prediction_probabilities.shape</span></code></pre></div>
+<div class="output execute_result" data-execution_count="48">
+<pre><code>TensorShape([1, 1000])</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="49" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="1_FyCm0dYnvl" data-outputId="0726b048-49be-4db0-f0f2-b19d18de317d">
+<div class="sourceCode" id="cb12"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>predicted_top_5 <span class="op">=</span> tf.keras.applications.vgg19.decode_predictions(prediction_probabilities.numpy())[<span class="dv">0</span>]</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>[(class_name, prob) <span class="cf">for</span> (number, class_name, prob) <span class="kw">in</span> predicted_top_5]</span></code></pre></div>
+<div class="output execute_result" data-execution_count="49">
+<pre><code>[(&#39;gasmask&#39;, 0.099235006),
+ (&#39;punching_bag&#39;, 0.047973413),
+ (&#39;banjo&#39;, 0.02787011),
+ (&#39;breastplate&#39;, 0.02721989),
+ (&#39;spotlight&#39;, 0.024717972)]</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="ljpoYk-0f6HS">
+<p>Now load a <code>VGG19</code> without the classification head, and list the layer names</p>
+</div>
+<div class="cell code" data-execution_count="50" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="Yh_AV6220ebD" data-outputId="d1b6c93f-c69f-41db-b5bb-1d6a3c5984f2">
+<div class="sourceCode" id="cb14"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>vgg <span class="op">=</span> tf.keras.applications.VGG19(include_top<span class="op">=</span><span class="va">False</span>, weights<span class="op">=</span><span class="st">&#39;imagenet&#39;</span>)</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>()</span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> layer <span class="kw">in</span> vgg.layers:</span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>  <span class="bu">print</span>(layer.name)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>
+input_6
+block1_conv1
+block1_conv2
+block1_pool
+block2_conv1
+block2_conv2
+block2_pool
+block3_conv1
+block3_conv2
+block3_conv3
+block3_conv4
+block3_pool
+block4_conv1
+block4_conv2
+block4_conv3
+block4_conv4
+block4_pool
+block5_conv1
+block5_conv2
+block5_conv3
+block5_conv4
+block5_pool
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="Wt-tASys0eJv">
+<p>Choose intermediate layers from the network to represent the style and content of the image:</p>
+</div>
+<div class="cell code" data-execution_count="51" id="ArfX_6iA0WAX">
+<div class="sourceCode" id="cb16"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>content_layers <span class="op">=</span> [<span class="st">&#39;block5_conv2&#39;</span>] </span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>style_layers <span class="op">=</span> [<span class="st">&#39;block1_conv1&#39;</span>,</span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>                <span class="st">&#39;block2_conv1&#39;</span>,</span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>                <span class="st">&#39;block3_conv1&#39;</span>, </span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a>                <span class="st">&#39;block4_conv1&#39;</span>, </span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a>                <span class="st">&#39;block5_conv1&#39;</span>]</span>
+<span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-9"><a href="#cb16-9" aria-hidden="true" tabindex="-1"></a>num_content_layers <span class="op">=</span> <span class="bu">len</span>(content_layers)</span>
+<span id="cb16-10"><a href="#cb16-10" aria-hidden="true" tabindex="-1"></a>num_style_layers <span class="op">=</span> <span class="bu">len</span>(style_layers)</span></code></pre></div>
+</div>
+<section id="intermediate-layers-for-style-and-content" class="cell markdown" id="2o4nSwuN0U3X">
+<h4>Intermediate layers for style and content</h4>
+<p>So why do these intermediate outputs within our pretrained image classification network allow us to define style and content representations?</p>
+<p>At a high level, in order for a network to perform image classification (which this network has been trained to do), it must understand the image. This requires taking the raw image as input pixels and building an internal representation that converts the raw image pixels into a complex understanding of the features present within the image.</p>
+<p>This is also a reason why convolutional neural networks are able to generalize well: they’re able to capture the invariances and defining features within classes (e.g. cats vs. dogs) that are agnostic to background noise and other nuisances. Thus, somewhere between where the raw image is fed into the model and the output classification label, the model serves as a complex feature extractor. By accessing intermediate layers of the model, you're able to describe the content and style of input images.</p>
+</section>
+<section id="build-the-model" class="cell markdown" id="Jt3i3RRrJiOX">
+<h2>Build the model</h2>
+<p>The networks in <code>tf.keras.applications</code> are designed so you can easily extract the intermediate layer values using the Keras functional API.</p>
+<p>To define a model using the functional API, specify the inputs and outputs:</p>
+<p><code>model = Model(inputs, outputs)</code></p>
+<p>This following function builds a VGG19 model that returns a list of intermediate layer outputs:</p>
+</section>
+<div class="cell code" data-execution_count="52" id="nfec6MuMAbPx">
+<div class="sourceCode" id="cb17"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> vgg_layers(layer_names):</span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>  <span class="co">&quot;&quot;&quot; Creates a vgg model that returns a list of intermediate output values.&quot;&quot;&quot;</span></span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Load our model. Load pretrained VGG, trained on imagenet data</span></span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>  vgg <span class="op">=</span> tf.keras.applications.VGG19(include_top<span class="op">=</span><span class="va">False</span>, weights<span class="op">=</span><span class="st">&#39;imagenet&#39;</span>)</span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>  vgg.trainable <span class="op">=</span> <span class="va">False</span></span>
+<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a>  outputs <span class="op">=</span> [vgg.get_layer(name).output <span class="cf">for</span> name <span class="kw">in</span> layer_names]</span>
+<span id="cb17-8"><a href="#cb17-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-9"><a href="#cb17-9" aria-hidden="true" tabindex="-1"></a>  model <span class="op">=</span> tf.keras.Model([vgg.<span class="bu">input</span>], outputs)</span>
+<span id="cb17-10"><a href="#cb17-10" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> model</span></code></pre></div>
+</div>
+<div class="cell markdown" id="jbaIvZf5wWn_">
+<p>And to create the model:</p>
+</div>
+<div class="cell code" data-execution_count="53" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="LkyvPpBHSfVi" data-outputId="d8fb2b54-510d-4be1-9f0c-eb5ebb5ab52b">
+<div class="sourceCode" id="cb18"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>style_extractor <span class="op">=</span> vgg_layers(style_layers)</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>style_outputs <span class="op">=</span> style_extractor(style_image<span class="op">*</span><span class="dv">255</span>)</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a><span class="co">#Look at the statistics of each layer&#39;s output</span></span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> name, output <span class="kw">in</span> <span class="bu">zip</span>(style_layers, style_outputs):</span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a>  <span class="bu">print</span>(name)</span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a>  <span class="bu">print</span>(<span class="st">&quot;  shape: &quot;</span>, output.numpy().shape)</span>
+<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a>  <span class="bu">print</span>(<span class="st">&quot;  min: &quot;</span>, output.numpy().<span class="bu">min</span>())</span>
+<span id="cb18-9"><a href="#cb18-9" aria-hidden="true" tabindex="-1"></a>  <span class="bu">print</span>(<span class="st">&quot;  max: &quot;</span>, output.numpy().<span class="bu">max</span>())</span>
+<span id="cb18-10"><a href="#cb18-10" aria-hidden="true" tabindex="-1"></a>  <span class="bu">print</span>(<span class="st">&quot;  mean: &quot;</span>, output.numpy().mean())</span>
+<span id="cb18-11"><a href="#cb18-11" aria-hidden="true" tabindex="-1"></a>  <span class="bu">print</span>()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>block1_conv1
+  shape:  (1, 512, 423, 64)
+  min:  0.0
+  max:  777.8174
+  mean:  32.407192
+
+block2_conv1
+  shape:  (1, 256, 211, 128)
+  min:  0.0
+  max:  4020.33
+  mean:  189.45348
+
+block3_conv1
+  shape:  (1, 128, 105, 256)
+  min:  0.0
+  max:  8237.121
+  mean:  184.4236
+
+block4_conv1
+  shape:  (1, 64, 52, 512)
+  min:  0.0
+  max:  19033.44
+  mean:  695.30994
+
+block5_conv1
+  shape:  (1, 32, 26, 512)
+  min:  0.0
+  max:  2404.09
+  mean:  44.177475
+
+</code></pre>
+</div>
+</div>
+<section id="calculate-style" class="cell markdown" id="lGUfttK9F8d5">
+<h2>Calculate style</h2>
+<p>The content of an image is represented by the values of the intermediate feature maps.</p>
+<p>It turns out, the style of an image can be described by the means and correlations across the different feature maps. Calculate a Gram matrix that includes this information by taking the outer product of the feature vector with itself at each location, and averaging that outer product over all locations. This Gram matrix can be calculated for a particular layer as:</p>
+<p><span class="math display">$$G^l_{cd} = \frac{\sum_{ij} F^l_{ijc}(x)F^l_{ijd}(x)}{IJ}$$</span></p>
+<p>This can be implemented concisely using the <code>tf.linalg.einsum</code> function:</p>
+</section>
+<div class="cell code" data-execution_count="54" id="HAy1iGPdoEpZ">
+<div class="sourceCode" id="cb20"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> gram_matrix(input_tensor):</span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>  result <span class="op">=</span> tf.linalg.einsum(<span class="st">&#39;bijc,bijd-&gt;bcd&#39;</span>, input_tensor, input_tensor)</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>  input_shape <span class="op">=</span> tf.shape(input_tensor)</span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>  num_locations <span class="op">=</span> tf.cast(input_shape[<span class="dv">1</span>]<span class="op">*</span>input_shape[<span class="dv">2</span>], tf.float32)</span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> result<span class="op">/</span>(num_locations)</span></code></pre></div>
+</div>
+<section id="extract-style-and-content" class="cell markdown" id="pXIUX6czZABh">
+<h2>Extract style and content</h2>
+</section>
+<div class="cell markdown" id="1HGHvwlJ1nkn">
+<p>Build a model that returns the style and content tensors.</p>
+</div>
+<div class="cell code" data-execution_count="55" id="Sr6QALY-I1ja">
+<div class="sourceCode" id="cb21"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> StyleContentModel(tf.keras.models.Model):</span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>  <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, style_layers, content_layers):</span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>    <span class="bu">super</span>(StyleContentModel, <span class="va">self</span>).<span class="fu">__init__</span>()</span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a>    <span class="va">self</span>.vgg <span class="op">=</span> vgg_layers(style_layers <span class="op">+</span> content_layers)</span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a>    <span class="va">self</span>.style_layers <span class="op">=</span> style_layers</span>
+<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a>    <span class="va">self</span>.content_layers <span class="op">=</span> content_layers</span>
+<span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a>    <span class="va">self</span>.num_style_layers <span class="op">=</span> <span class="bu">len</span>(style_layers)</span>
+<span id="cb21-8"><a href="#cb21-8" aria-hidden="true" tabindex="-1"></a>    <span class="va">self</span>.vgg.trainable <span class="op">=</span> <span class="va">False</span></span>
+<span id="cb21-9"><a href="#cb21-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-10"><a href="#cb21-10" aria-hidden="true" tabindex="-1"></a>  <span class="kw">def</span> call(<span class="va">self</span>, inputs):</span>
+<span id="cb21-11"><a href="#cb21-11" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;Expects float input in [0,1]&quot;</span></span>
+<span id="cb21-12"><a href="#cb21-12" aria-hidden="true" tabindex="-1"></a>    inputs <span class="op">=</span> inputs<span class="op">*</span><span class="fl">255.0</span></span>
+<span id="cb21-13"><a href="#cb21-13" aria-hidden="true" tabindex="-1"></a>    preprocessed_input <span class="op">=</span> tf.keras.applications.vgg19.preprocess_input(inputs)</span>
+<span id="cb21-14"><a href="#cb21-14" aria-hidden="true" tabindex="-1"></a>    outputs <span class="op">=</span> <span class="va">self</span>.vgg(preprocessed_input)</span>
+<span id="cb21-15"><a href="#cb21-15" aria-hidden="true" tabindex="-1"></a>    style_outputs, content_outputs <span class="op">=</span> (outputs[:<span class="va">self</span>.num_style_layers],</span>
+<span id="cb21-16"><a href="#cb21-16" aria-hidden="true" tabindex="-1"></a>                                      outputs[<span class="va">self</span>.num_style_layers:])</span>
+<span id="cb21-17"><a href="#cb21-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-18"><a href="#cb21-18" aria-hidden="true" tabindex="-1"></a>    style_outputs <span class="op">=</span> [gram_matrix(style_output)</span>
+<span id="cb21-19"><a href="#cb21-19" aria-hidden="true" tabindex="-1"></a>                     <span class="cf">for</span> style_output <span class="kw">in</span> style_outputs]</span>
+<span id="cb21-20"><a href="#cb21-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-21"><a href="#cb21-21" aria-hidden="true" tabindex="-1"></a>    content_dict <span class="op">=</span> {content_name: value</span>
+<span id="cb21-22"><a href="#cb21-22" aria-hidden="true" tabindex="-1"></a>                    <span class="cf">for</span> content_name, value</span>
+<span id="cb21-23"><a href="#cb21-23" aria-hidden="true" tabindex="-1"></a>                    <span class="kw">in</span> <span class="bu">zip</span>(<span class="va">self</span>.content_layers, content_outputs)}</span>
+<span id="cb21-24"><a href="#cb21-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-25"><a href="#cb21-25" aria-hidden="true" tabindex="-1"></a>    style_dict <span class="op">=</span> {style_name: value</span>
+<span id="cb21-26"><a href="#cb21-26" aria-hidden="true" tabindex="-1"></a>                  <span class="cf">for</span> style_name, value</span>
+<span id="cb21-27"><a href="#cb21-27" aria-hidden="true" tabindex="-1"></a>                  <span class="kw">in</span> <span class="bu">zip</span>(<span class="va">self</span>.style_layers, style_outputs)}</span>
+<span id="cb21-28"><a href="#cb21-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-29"><a href="#cb21-29" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> {<span class="st">&#39;content&#39;</span>: content_dict, <span class="st">&#39;style&#39;</span>: style_dict}</span></code></pre></div>
+</div>
+<div class="cell markdown" id="Xuj1o33t1edl">
+<p>When called on an image, this model returns the gram matrix (style) of the <code>style_layers</code> and content of the <code>content_layers</code>:</p>
+</div>
+<div class="cell code" data-execution_count="56" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="rkjO-DoNDU0A" data-outputId="35b9464c-5ba4-4d69-9d25-89aeeee7d9b1">
+<div class="sourceCode" id="cb22"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>extractor <span class="op">=</span> StyleContentModel(style_layers, content_layers)</span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>results <span class="op">=</span> extractor(tf.constant(content_image))</span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;Styles:&#39;</span>)</span>
+<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> name, output <span class="kw">in</span> <span class="bu">sorted</span>(results[<span class="st">&#39;style&#39;</span>].items()):</span>
+<span id="cb22-7"><a href="#cb22-7" aria-hidden="true" tabindex="-1"></a>  <span class="bu">print</span>(<span class="st">&quot;  &quot;</span>, name)</span>
+<span id="cb22-8"><a href="#cb22-8" aria-hidden="true" tabindex="-1"></a>  <span class="bu">print</span>(<span class="st">&quot;    shape: &quot;</span>, output.numpy().shape)</span>
+<span id="cb22-9"><a href="#cb22-9" aria-hidden="true" tabindex="-1"></a>  <span class="bu">print</span>(<span class="st">&quot;    min: &quot;</span>, output.numpy().<span class="bu">min</span>())</span>
+<span id="cb22-10"><a href="#cb22-10" aria-hidden="true" tabindex="-1"></a>  <span class="bu">print</span>(<span class="st">&quot;    max: &quot;</span>, output.numpy().<span class="bu">max</span>())</span>
+<span id="cb22-11"><a href="#cb22-11" aria-hidden="true" tabindex="-1"></a>  <span class="bu">print</span>(<span class="st">&quot;    mean: &quot;</span>, output.numpy().mean())</span>
+<span id="cb22-12"><a href="#cb22-12" aria-hidden="true" tabindex="-1"></a>  <span class="bu">print</span>()</span>
+<span id="cb22-13"><a href="#cb22-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-14"><a href="#cb22-14" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Contents:&quot;</span>)</span>
+<span id="cb22-15"><a href="#cb22-15" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> name, output <span class="kw">in</span> <span class="bu">sorted</span>(results[<span class="st">&#39;content&#39;</span>].items()):</span>
+<span id="cb22-16"><a href="#cb22-16" aria-hidden="true" tabindex="-1"></a>  <span class="bu">print</span>(<span class="st">&quot;  &quot;</span>, name)</span>
+<span id="cb22-17"><a href="#cb22-17" aria-hidden="true" tabindex="-1"></a>  <span class="bu">print</span>(<span class="st">&quot;    shape: &quot;</span>, output.numpy().shape)</span>
+<span id="cb22-18"><a href="#cb22-18" aria-hidden="true" tabindex="-1"></a>  <span class="bu">print</span>(<span class="st">&quot;    min: &quot;</span>, output.numpy().<span class="bu">min</span>())</span>
+<span id="cb22-19"><a href="#cb22-19" aria-hidden="true" tabindex="-1"></a>  <span class="bu">print</span>(<span class="st">&quot;    max: &quot;</span>, output.numpy().<span class="bu">max</span>())</span>
+<span id="cb22-20"><a href="#cb22-20" aria-hidden="true" tabindex="-1"></a>  <span class="bu">print</span>(<span class="st">&quot;    mean: &quot;</span>, output.numpy().mean())</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Styles:
+   block1_conv1
+    shape:  (1, 64, 64)
+    min:  0.0
+    max:  13388.328
+    mean:  292.9004
+
+   block2_conv1
+    shape:  (1, 128, 128)
+    min:  0.0
+    max:  55069.473
+    mean:  9810.178
+
+   block3_conv1
+    shape:  (1, 256, 256)
+    min:  0.0
+    max:  156029.69
+    mean:  8429.904
+
+   block4_conv1
+    shape:  (1, 512, 512)
+    min:  0.0
+    max:  2975635.2
+    mean:  137861.39
+
+   block5_conv1
+    shape:  (1, 512, 512)
+    min:  0.0
+    max:  96498.04
+    mean:  885.4972
+
+Contents:
+   block5_conv2
+    shape:  (1, 32, 32, 512)
+    min:  0.0
+    max:  806.90027
+    mean:  10.813094
+</code></pre>
+</div>
+</div>
+<section id="run-gradient-descent" class="cell markdown" id="y9r8Lyjb_m0u">
+<h2>Run gradient descent</h2>
+<p>With this style and content extractor, you can now implement the style transfer algorithm. Do this by calculating the mean square error for your image's output relative to each target, then take the weighted sum of these losses.</p>
+<p>Set your style and content target values:</p>
+</section>
+<div class="cell code" data-execution_count="57" id="PgkNOnGUFcKa">
+<div class="sourceCode" id="cb24"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>style_targets <span class="op">=</span> extractor(style_image)[<span class="st">&#39;style&#39;</span>]</span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>content_targets <span class="op">=</span> extractor(content_image)[<span class="st">&#39;content&#39;</span>]</span></code></pre></div>
+</div>
+<div class="cell markdown" id="CNPrpl-e_w9A">
+<p>Define a <code>tf.Variable</code> to contain the image to optimize. To make this quick, initialize it with the content image (the <code>tf.Variable</code> must be the same shape as the content image):</p>
+</div>
+<div class="cell code" data-execution_count="58" id="J0vKxF8ZO6G8">
+<div class="sourceCode" id="cb25"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>image <span class="op">=</span> tf.Variable(content_image)</span></code></pre></div>
+</div>
+<div class="cell markdown" id="M6L8ojmn_6rH">
+<p>Since this is a float image, define a function to keep the pixel values between 0 and 1:</p>
+</div>
+<div class="cell code" data-execution_count="59" id="kdgpTJwL_vE2">
+<div class="sourceCode" id="cb26"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> clip_0_1(image):</span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> tf.clip_by_value(image, clip_value_min<span class="op">=</span><span class="fl">0.0</span>, clip_value_max<span class="op">=</span><span class="fl">1.0</span>)</span></code></pre></div>
+</div>
+<div class="cell markdown" id="MBU5RFpcAo7W">
+<p>Create an optimizer. The paper recommends LBFGS, but <code>Adam</code> works okay, too:</p>
+</div>
+<div class="cell code" data-execution_count="60" id="r4XZjqUk_5Eu">
+<div class="sourceCode" id="cb27"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>opt <span class="op">=</span> tf.optimizers.Adam(learning_rate<span class="op">=</span><span class="fl">0.02</span>, beta_1<span class="op">=</span><span class="fl">0.99</span>, epsilon<span class="op">=</span><span class="fl">1e-1</span>)</span></code></pre></div>
+</div>
+<div class="cell markdown" id="As-evbBiA2qT">
+<p>To optimize this, use a weighted combination of the two losses to get the total loss:</p>
+</div>
+<div class="cell code" data-execution_count="61" id="Dt4pxarvA4I4">
+<div class="sourceCode" id="cb28"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>style_weight<span class="op">=</span><span class="fl">1e-2</span></span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a>content_weight<span class="op">=</span><span class="fl">1e4</span></span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="62" id="0ggx2Na8oROH">
+<div class="sourceCode" id="cb29"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> style_content_loss(outputs):</span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>    style_outputs <span class="op">=</span> outputs[<span class="st">&#39;style&#39;</span>]</span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a>    content_outputs <span class="op">=</span> outputs[<span class="st">&#39;content&#39;</span>]</span>
+<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a>    style_loss <span class="op">=</span> tf.add_n([tf.reduce_mean((style_outputs[name]<span class="op">-</span>style_targets[name])<span class="op">**</span><span class="dv">2</span>) </span>
+<span id="cb29-5"><a href="#cb29-5" aria-hidden="true" tabindex="-1"></a>                           <span class="cf">for</span> name <span class="kw">in</span> style_outputs.keys()])</span>
+<span id="cb29-6"><a href="#cb29-6" aria-hidden="true" tabindex="-1"></a>    style_loss <span class="op">*=</span> style_weight <span class="op">/</span> num_style_layers</span>
+<span id="cb29-7"><a href="#cb29-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-8"><a href="#cb29-8" aria-hidden="true" tabindex="-1"></a>    content_loss <span class="op">=</span> tf.add_n([tf.reduce_mean((content_outputs[name]<span class="op">-</span>content_targets[name])<span class="op">**</span><span class="dv">2</span>) </span>
+<span id="cb29-9"><a href="#cb29-9" aria-hidden="true" tabindex="-1"></a>                             <span class="cf">for</span> name <span class="kw">in</span> content_outputs.keys()])</span>
+<span id="cb29-10"><a href="#cb29-10" aria-hidden="true" tabindex="-1"></a>    content_loss <span class="op">*=</span> content_weight <span class="op">/</span> num_content_layers</span>
+<span id="cb29-11"><a href="#cb29-11" aria-hidden="true" tabindex="-1"></a>    loss <span class="op">=</span> style_loss <span class="op">+</span> content_loss</span>
+<span id="cb29-12"><a href="#cb29-12" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> loss</span></code></pre></div>
+</div>
+<div class="cell markdown" id="vbF2WnP9BI5M">
+<p>Use <code>tf.GradientTape</code> to update the image.</p>
+</div>
+<div class="cell code" data-execution_count="63" id="0t0umkajFIuh">
+<div class="sourceCode" id="cb30"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="at">@tf.function</span>()</span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> train_step(image):</span>
+<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a>  <span class="cf">with</span> tf.GradientTape() <span class="im">as</span> tape:</span>
+<span id="cb30-4"><a href="#cb30-4" aria-hidden="true" tabindex="-1"></a>    outputs <span class="op">=</span> extractor(image)</span>
+<span id="cb30-5"><a href="#cb30-5" aria-hidden="true" tabindex="-1"></a>    loss <span class="op">=</span> style_content_loss(outputs)</span>
+<span id="cb30-6"><a href="#cb30-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-7"><a href="#cb30-7" aria-hidden="true" tabindex="-1"></a>  grad <span class="op">=</span> tape.gradient(loss, image)</span>
+<span id="cb30-8"><a href="#cb30-8" aria-hidden="true" tabindex="-1"></a>  opt.apply_gradients([(grad, image)])</span>
+<span id="cb30-9"><a href="#cb30-9" aria-hidden="true" tabindex="-1"></a>  image.assign(clip_0_1(image))</span></code></pre></div>
+</div>
+<div class="cell markdown" id="5FHMJq4UBRIQ">
+<p>Now run a few steps to test:</p>
+</div>
+<div class="cell code" data-execution_count="64" data-colab="{&quot;height&quot;:529,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="Y542mxi-O2a2" data-outputId="75f1e745-f047-4204-f43a-a1ce54207ebb">
+<div class="sourceCode" id="cb31"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>train_step(image)</span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>train_step(image)</span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a>train_step(image)</span>
+<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a>tensor_to_image(image)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="64">
+<p><img src="vertopal_4c2df06cf1ff41829938ccf511556820/86ea6fe1fad4d2af7ef9dae33dd933107d5b1c3f.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="mNzE-mTbBVgY">
+<p>Since it's working, perform a longer optimization:</p>
+</div>
+<div class="cell code" data-execution_count="65" data-colab="{&quot;height&quot;:564,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="rQW1tXYoLbUS" data-outputId="297f785d-d8f4-48da-e64c-bc0169f99473">
+<div class="sourceCode" id="cb32"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> time</span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a>start <span class="op">=</span> time.time()</span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a>epochs <span class="op">=</span> <span class="dv">10</span></span>
+<span id="cb32-5"><a href="#cb32-5" aria-hidden="true" tabindex="-1"></a>steps_per_epoch <span class="op">=</span> <span class="dv">100</span></span>
+<span id="cb32-6"><a href="#cb32-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-7"><a href="#cb32-7" aria-hidden="true" tabindex="-1"></a>step <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb32-8"><a href="#cb32-8" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> n <span class="kw">in</span> <span class="bu">range</span>(epochs):</span>
+<span id="cb32-9"><a href="#cb32-9" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span> m <span class="kw">in</span> <span class="bu">range</span>(steps_per_epoch):</span>
+<span id="cb32-10"><a href="#cb32-10" aria-hidden="true" tabindex="-1"></a>    step <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb32-11"><a href="#cb32-11" aria-hidden="true" tabindex="-1"></a>    train_step(image)</span>
+<span id="cb32-12"><a href="#cb32-12" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;.&quot;</span>, end<span class="op">=</span><span class="st">&#39;&#39;</span>, flush<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb32-13"><a href="#cb32-13" aria-hidden="true" tabindex="-1"></a>  display.clear_output(wait<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb32-14"><a href="#cb32-14" aria-hidden="true" tabindex="-1"></a>  display.display(tensor_to_image(image))</span>
+<span id="cb32-15"><a href="#cb32-15" aria-hidden="true" tabindex="-1"></a>  <span class="bu">print</span>(<span class="st">&quot;Train step: </span><span class="sc">{}</span><span class="st">&quot;</span>.<span class="bu">format</span>(step))</span>
+<span id="cb32-16"><a href="#cb32-16" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb32-17"><a href="#cb32-17" aria-hidden="true" tabindex="-1"></a>end <span class="op">=</span> time.time()</span>
+<span id="cb32-18"><a href="#cb32-18" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Total time: </span><span class="sc">{:.1f}</span><span class="st">&quot;</span>.<span class="bu">format</span>(end<span class="op">-</span>start))</span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_4c2df06cf1ff41829938ccf511556820/f397a4c9654228d5ad283d01600e85e97a978170.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>Train step: 1000
+Total time: 411.5
+</code></pre>
+</div>
+</div>
+<section id="total-variation-loss" class="cell markdown" id="GWVB3anJMY2v">
+<h2>Total variation loss</h2>
+<p>One downside to this basic implementation is that it produces a lot of high frequency artifacts. Decrease these using an explicit regularization term on the high frequency components of the image. In style transfer, this is often called the <em>total variation loss</em>:</p>
+</section>
+<div class="cell code" data-execution_count="66" id="7szUUybCQMB3">
+<div class="sourceCode" id="cb34"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> high_pass_x_y(image):</span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a>  x_var <span class="op">=</span> image[:, :, <span class="dv">1</span>:, :] <span class="op">-</span> image[:, :, :<span class="op">-</span><span class="dv">1</span>, :]</span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a>  y_var <span class="op">=</span> image[:, <span class="dv">1</span>:, :, :] <span class="op">-</span> image[:, :<span class="op">-</span><span class="dv">1</span>, :, :]</span>
+<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-5"><a href="#cb34-5" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> x_var, y_var</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="67" data-colab="{&quot;height&quot;:567,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="Atc2oL29PXu_" data-outputId="fd1b96c5-9b94-4136-b005-e4807669e9da">
+<div class="sourceCode" id="cb35"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>x_deltas, y_deltas <span class="op">=</span> high_pass_x_y(content_image)</span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">14</span>, <span class="dv">10</span>))</span>
+<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a>plt.subplot(<span class="dv">2</span>, <span class="dv">2</span>, <span class="dv">1</span>)</span>
+<span id="cb35-5"><a href="#cb35-5" aria-hidden="true" tabindex="-1"></a>imshow(clip_0_1(<span class="dv">2</span><span class="op">*</span>y_deltas<span class="op">+</span><span class="fl">0.5</span>), <span class="st">&quot;Horizontal Deltas: Original&quot;</span>)</span>
+<span id="cb35-6"><a href="#cb35-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-7"><a href="#cb35-7" aria-hidden="true" tabindex="-1"></a>plt.subplot(<span class="dv">2</span>, <span class="dv">2</span>, <span class="dv">2</span>)</span>
+<span id="cb35-8"><a href="#cb35-8" aria-hidden="true" tabindex="-1"></a>imshow(clip_0_1(<span class="dv">2</span><span class="op">*</span>x_deltas<span class="op">+</span><span class="fl">0.5</span>), <span class="st">&quot;Vertical Deltas: Original&quot;</span>)</span>
+<span id="cb35-9"><a href="#cb35-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-10"><a href="#cb35-10" aria-hidden="true" tabindex="-1"></a>x_deltas, y_deltas <span class="op">=</span> high_pass_x_y(image)</span>
+<span id="cb35-11"><a href="#cb35-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-12"><a href="#cb35-12" aria-hidden="true" tabindex="-1"></a>plt.subplot(<span class="dv">2</span>, <span class="dv">2</span>, <span class="dv">3</span>)</span>
+<span id="cb35-13"><a href="#cb35-13" aria-hidden="true" tabindex="-1"></a>imshow(clip_0_1(<span class="dv">2</span><span class="op">*</span>y_deltas<span class="op">+</span><span class="fl">0.5</span>), <span class="st">&quot;Horizontal Deltas: Styled&quot;</span>)</span>
+<span id="cb35-14"><a href="#cb35-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-15"><a href="#cb35-15" aria-hidden="true" tabindex="-1"></a>plt.subplot(<span class="dv">2</span>, <span class="dv">2</span>, <span class="dv">4</span>)</span>
+<span id="cb35-16"><a href="#cb35-16" aria-hidden="true" tabindex="-1"></a>imshow(clip_0_1(<span class="dv">2</span><span class="op">*</span>x_deltas<span class="op">+</span><span class="fl">0.5</span>), <span class="st">&quot;Vertical Deltas: Styled&quot;</span>)</span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_4c2df06cf1ff41829938ccf511556820/91ab5a5f9c2ca12c2d4db1eee603f72154b93799.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="lqHElVgBkgkz">
+<p>This shows how the high frequency components have increased.</p>
+<p>Also, this high frequency component is basically an edge-detector. You can get similar output from the Sobel edge detector, for example:</p>
+</div>
+<div class="cell code" data-execution_count="68" data-colab="{&quot;height&quot;:344,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="HyvqCiywiUfL" data-outputId="4f161243-ec98-46d9-c532-2dc04ba125b2">
+<div class="sourceCode" id="cb36"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">14</span>, <span class="dv">10</span>))</span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a>sobel <span class="op">=</span> tf.image.sobel_edges(content_image)</span>
+<span id="cb36-4"><a href="#cb36-4" aria-hidden="true" tabindex="-1"></a>plt.subplot(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">1</span>)</span>
+<span id="cb36-5"><a href="#cb36-5" aria-hidden="true" tabindex="-1"></a>imshow(clip_0_1(sobel[..., <span class="dv">0</span>]<span class="op">/</span><span class="dv">4</span><span class="op">+</span><span class="fl">0.5</span>), <span class="st">&quot;Horizontal Sobel-edges&quot;</span>)</span>
+<span id="cb36-6"><a href="#cb36-6" aria-hidden="true" tabindex="-1"></a>plt.subplot(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">2</span>)</span>
+<span id="cb36-7"><a href="#cb36-7" aria-hidden="true" tabindex="-1"></a>imshow(clip_0_1(sobel[..., <span class="dv">1</span>]<span class="op">/</span><span class="dv">4</span><span class="op">+</span><span class="fl">0.5</span>), <span class="st">&quot;Vertical Sobel-edges&quot;</span>)</span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_4c2df06cf1ff41829938ccf511556820/e087ab5e6dc7511aa1f403f89f8f346812e6c427.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="vv5bKlSDnPP7">
+<p>The regularization loss associated with this is the sum of the squares of the values:</p>
+</div>
+<div class="cell code" data-execution_count="69" id="mP-92lXMIYPn">
+<div class="sourceCode" id="cb37"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> total_variation_loss(image):</span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a>  x_deltas, y_deltas <span class="op">=</span> high_pass_x_y(image)</span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> tf.reduce_sum(tf.<span class="bu">abs</span>(x_deltas)) <span class="op">+</span> tf.reduce_sum(tf.<span class="bu">abs</span>(y_deltas))</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="70" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="s4OYBUX2KQ25" data-outputId="19246150-b9eb-4812-c864-17fad696dd10">
+<div class="sourceCode" id="cb38"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a>total_variation_loss(image).numpy()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="70">
+<pre><code>178357.45</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="pu2hJ8zOKMc1">
+<p>That demonstrated what it does. But there's no need to implement it yourself, TensorFlow includes a standard implementation:</p>
+</div>
+<div class="cell code" data-execution_count="71" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="YQjWW04NKLfJ" data-outputId="d8c0db12-9c71-47f2-de81-8762bef0bcc6">
+<div class="sourceCode" id="cb40"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a>tf.image.total_variation(image).numpy()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="71">
+<pre><code>array([178357.45], dtype=float32)</code></pre>
+</div>
+</div>
+<section id="re-run-the-optimization" class="cell markdown" id="nTessd-DCdcC">
+<h2>Re-run the optimization</h2>
+<p>Choose a weight for the <code>total_variation_loss</code>:</p>
+</section>
+<div class="cell code" data-execution_count="72" id="tGeRLD4GoAd4">
+<div class="sourceCode" id="cb42"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a>total_variation_weight<span class="op">=</span><span class="dv">50</span></span></code></pre></div>
+</div>
+<div class="cell markdown" id="kG1-T4kJsoAv">
+<p>Now include it in the <code>train_step</code> function:</p>
+</div>
+<div class="cell code" data-execution_count="73" id="BzmfcyyYUyWq">
+<div class="sourceCode" id="cb43"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a><span class="at">@tf.function</span>()</span>
+<span id="cb43-2"><a href="#cb43-2" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> train_step(image):</span>
+<span id="cb43-3"><a href="#cb43-3" aria-hidden="true" tabindex="-1"></a>  <span class="cf">with</span> tf.GradientTape() <span class="im">as</span> tape:</span>
+<span id="cb43-4"><a href="#cb43-4" aria-hidden="true" tabindex="-1"></a>    outputs <span class="op">=</span> extractor(image)</span>
+<span id="cb43-5"><a href="#cb43-5" aria-hidden="true" tabindex="-1"></a>    loss <span class="op">=</span> style_content_loss(outputs)</span>
+<span id="cb43-6"><a href="#cb43-6" aria-hidden="true" tabindex="-1"></a>    loss <span class="op">+=</span> total_variation_weight<span class="op">*</span>tf.image.total_variation(image)</span>
+<span id="cb43-7"><a href="#cb43-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb43-8"><a href="#cb43-8" aria-hidden="true" tabindex="-1"></a>  grad <span class="op">=</span> tape.gradient(loss, image)</span>
+<span id="cb43-9"><a href="#cb43-9" aria-hidden="true" tabindex="-1"></a>  opt.apply_gradients([(grad, image)])</span>
+<span id="cb43-10"><a href="#cb43-10" aria-hidden="true" tabindex="-1"></a>  image.assign(clip_0_1(image))</span></code></pre></div>
+</div>
+<div class="cell markdown" id="lcLWBQChsutQ">
+<p>Reinitialize the optimization variable:</p>
+</div>
+<div class="cell code" data-execution_count="74" id="a-dPRr8BqexB">
+<div class="sourceCode" id="cb44"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a>image <span class="op">=</span> tf.Variable(content_image)</span></code></pre></div>
+</div>
+<div class="cell markdown" id="BEflRstmtGBu">
+<p>And run the optimization:</p>
+</div>
+<div class="cell code" data-execution_count="75" data-colab="{&quot;height&quot;:564,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="q3Cc3bLtoOWy" data-outputId="87226875-b12c-4b9e-af95-bd2c357cc82d">
+<div class="sourceCode" id="cb45"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> time</span>
+<span id="cb45-2"><a href="#cb45-2" aria-hidden="true" tabindex="-1"></a>start <span class="op">=</span> time.time()</span>
+<span id="cb45-3"><a href="#cb45-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb45-4"><a href="#cb45-4" aria-hidden="true" tabindex="-1"></a>epochs <span class="op">=</span> <span class="dv">20</span></span>
+<span id="cb45-5"><a href="#cb45-5" aria-hidden="true" tabindex="-1"></a>steps_per_epoch <span class="op">=</span> <span class="dv">100</span></span>
+<span id="cb45-6"><a href="#cb45-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb45-7"><a href="#cb45-7" aria-hidden="true" tabindex="-1"></a>step <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb45-8"><a href="#cb45-8" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> n <span class="kw">in</span> <span class="bu">range</span>(epochs):</span>
+<span id="cb45-9"><a href="#cb45-9" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span> m <span class="kw">in</span> <span class="bu">range</span>(steps_per_epoch):</span>
+<span id="cb45-10"><a href="#cb45-10" aria-hidden="true" tabindex="-1"></a>    step <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb45-11"><a href="#cb45-11" aria-hidden="true" tabindex="-1"></a>    train_step(image)</span>
+<span id="cb45-12"><a href="#cb45-12" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;.&quot;</span>, end<span class="op">=</span><span class="st">&#39;&#39;</span>, flush<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb45-13"><a href="#cb45-13" aria-hidden="true" tabindex="-1"></a>  display.clear_output(wait<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb45-14"><a href="#cb45-14" aria-hidden="true" tabindex="-1"></a>  display.display(tensor_to_image(image))</span>
+<span id="cb45-15"><a href="#cb45-15" aria-hidden="true" tabindex="-1"></a>  <span class="bu">print</span>(<span class="st">&quot;Train step: </span><span class="sc">{}</span><span class="st">&quot;</span>.<span class="bu">format</span>(step))</span>
+<span id="cb45-16"><a href="#cb45-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb45-17"><a href="#cb45-17" aria-hidden="true" tabindex="-1"></a>end <span class="op">=</span> time.time()</span>
+<span id="cb45-18"><a href="#cb45-18" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Total time: </span><span class="sc">{:.1f}</span><span class="st">&quot;</span>.<span class="bu">format</span>(end<span class="op">-</span>start))</span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_4c2df06cf1ff41829938ccf511556820/ae3156d548a1b59c01f4324294ce387908857bd1.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>Train step: 2000
+Total time: 828.5
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="KKox7K46tKxy">
+<p>Finally, save the result:</p>
+</div>
+<div class="cell code" data-execution_count="76" data-colab="{&quot;height&quot;:17,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="SSH6OpyyQn7w" data-outputId="b0501c31-a8ac-4f2c-baa2-7bf19f8d7d09">
+<div class="sourceCode" id="cb47"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb47-1"><a href="#cb47-1" aria-hidden="true" tabindex="-1"></a>file_name <span class="op">=</span> <span class="st">&#39;stylized-image.png&#39;</span></span>
+<span id="cb47-2"><a href="#cb47-2" aria-hidden="true" tabindex="-1"></a>tensor_to_image(image).save(file_name)</span>
+<span id="cb47-3"><a href="#cb47-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb47-4"><a href="#cb47-4" aria-hidden="true" tabindex="-1"></a><span class="cf">try</span>:</span>
+<span id="cb47-5"><a href="#cb47-5" aria-hidden="true" tabindex="-1"></a>  <span class="im">from</span> google.colab <span class="im">import</span> files</span>
+<span id="cb47-6"><a href="#cb47-6" aria-hidden="true" tabindex="-1"></a><span class="cf">except</span> <span class="pp">ImportError</span>:</span>
+<span id="cb47-7"><a href="#cb47-7" aria-hidden="true" tabindex="-1"></a>   <span class="cf">pass</span></span>
+<span id="cb47-8"><a href="#cb47-8" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span>:</span>
+<span id="cb47-9"><a href="#cb47-9" aria-hidden="true" tabindex="-1"></a>  files.download(file_name)</span></code></pre></div>
+<div class="output display_data">
+<pre><code>&lt;IPython.core.display.Javascript object&gt;</code></pre>
+</div>
+<div class="output display_data">
+<pre><code>&lt;IPython.core.display.Javascript object&gt;</code></pre>
+</div>
+</div>
+<section id="learn-more" class="cell markdown" id="tNlwRXagxQZk">
+<h2>Learn more</h2>
+<p>This tutorial demonstrates the original style-transfer algorithm. For a simple application of style transfer check out this <a href="https://www.tensorflow.org/hub/tutorials/tf2_arbitrary_image_stylization">tutorial</a> to learn more about how to use the arbitrary image style transfer model from <a href="https://tfhub.dev">TensorFlow Hub</a>.</p>
+</section>
+</body>
+</html>
