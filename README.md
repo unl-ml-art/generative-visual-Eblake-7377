@@ -1,5 +1,4 @@
-# Project 3 Generative Visual - Copycat to Colaborator 
-
+# Project 3 Generative Visual - Not My CopyCat
 Ebben Blake, eblake3@huskers.unl.edu
 
 
@@ -20,8 +19,15 @@ style_transfer.ipynb
 
 ![PXL_20210719_172340883](https://user-images.githubusercontent.com/83600906/166871165-de1bb53c-e3b1-4069-a039-dfc425b80e4a.png)
 
+![PXL_20211223_195310076](https://user-images.githubusercontent.com/83600906/167493283-4bdff1a6-1d11-4934-8d69-04509e5bdc8b.png)
+
  - Text to Image BigGAN output
- 
+
+![w_03](https://user-images.githubusercontent.com/83600906/167492278-e9c7fd08-3945-468c-9571-dd2647c0d77b.jpg)
+
+
+![g_03](https://user-images.githubusercontent.com/83600906/167492847-481ee996-41af-4cb8-b8cc-c498eaf2a142.jpg)
+
 
 ## Code
 Style trasnfer
