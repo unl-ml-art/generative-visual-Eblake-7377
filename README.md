@@ -25,6 +25,7 @@ style_transfer.ipynb
 
 ## Code
 Style trasnfer
+
 Text to image GAN
 
 
